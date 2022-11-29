@@ -1,13 +1,3 @@
-# Sample Hardhat Project
+# HSBC Coin
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+This project demonstrates a proof-of-concept applciation of the etherdata blockchain in the clearing and settlement of equity securities.   This implementation utilizes the ERC20 tokenization to create a token corresponding to the ownership of HSBC shares on a hypothetical stock exchange. This may then be deployed to the etherdata blockchain using the deply.ts script.
